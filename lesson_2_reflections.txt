@@ -12,3 +12,11 @@ The staging area contains only the changed files that you wish to be included in
 Q3: How can you use the staging area to make sure you have one commit per logical change?
 
 When making a logical change, I would only include the files that need to be revised to implement that change in the staging area.
+
+Q4: What are some situations when branches would be helpful in keeping your history organized? How would branches help? 
+
+I guess if you had multiple people working on various aspects of the program, having a branch for each person or team could allow them to keep track of only the changes they make to the code. If it's just me though? I guess it would be nice, as was mentioned to have a master branch that I maintain with minor tweaks and an experimental branch for more significant changes.
+
+Q5: How do the diagrams help you visualize the branch structure?
+
+Diagrams help me understand lots of concepts by abstracting or encoding things that aren't otherwise apparent. This is no exception!
