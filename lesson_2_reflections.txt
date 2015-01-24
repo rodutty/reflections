@@ -1,3 +1,11 @@
 Q1: What happens when you initialize a repository? Why do you need to do it?
 
 When you initialize a git repository, it creates a hidden .git folder in the cwd, and a bunch of subfolders and files...I assume we'll find out more about these soon. Check out version_control/reflections/.git to see more.
+
+Why? I think these files and folders are required for git to work!
+
+
+Q2: How is the staging area different from the working directory and the repository? What value do you think it offers?
+
+The staging area contains only the changed files that you wish to be included in the commit. This gives more control over what's included in each commit, and probably decreases the overall size of the repository as an entire snapshot of the working directory doesn't need to be stored with each commit. 
+
