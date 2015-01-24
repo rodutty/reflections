@@ -9,3 +9,6 @@ Q2: How is the staging area different from the working directory and the reposit
 
 The staging area contains only the changed files that you wish to be included in the commit. This gives more control over what's included in each commit, and probably decreases the overall size of the repository as an entire snapshot of the working directory doesn't need to be stored with each commit. 
 
+Q3: How can you use the staging area to make sure you have one commit per logical change?
+
+When making a logical change, I would only include the files that need to be revised to implement that change in the staging area.
