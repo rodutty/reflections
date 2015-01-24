@@ -1,0 +1,47 @@
+Q: How did viewing a diff between two versions of a file help you see the bug that was introduced?
+
+It’s pretty easy to spot differences in files using diff
+The lines that change always have:
++ to indicate an addition
+- to indicate a deletion
+
+Q: How could having easy access to the entire history of a file make you a more efficient programmer in the long term?
+
+Having the entire history could give some insight into the most efficient ways to code. 
+
+Ideally, I think an experienced coder would have less versions to arrive at the same result. 
+
+Unless they habitually save a lot.
+
+Q: What do you think are the pros and cons of manually choosing when to create a commit, like you do in Git, vs having versions automatically saved, like Google docs does?
+
+Pros:
+
+Logical commit points ensure that committed code works
+
+Cons: 
+
+User-error could be an issue if commits aren’t made or are delayed. 
+
+Q: Why do you think some version control systems, like Git, allow saving multiple files in one commit, while others, like Google Docs, treat each file separately?
+
+Git’s version control system anticipates that multiple files will be interrelated.
+This means that changing one file will require changes in others.
+
+Google Docs is based on the principle that the files being saved are not related.
+
+Q: How can you use the commands git log and git diff to view the history of files?
+
+git log gives a detailed list of the commits made to a file, with each commit being represented by a serial number. 
+
+git diff <commit1> <commit2> shows the insertions and deletions in code between 2 commits. Adding the —stat modifier gives summarized info on the changes to commits
+
+Q: How might using version control make you more confident to make changes that could break something?
+
+This allows us to go back to any previous commit in the event that we make a mistake…pretty cool!
+
+Q: Now that you have your workspace set up, what do you want to try using Git for?
+
+I think at this point I could use some practice with the cmd line interface and getting a bit more familiar with Git instructions. Seems cool though!
+
+

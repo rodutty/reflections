@@ -1,0 +1,3 @@
+Q1: What happens when you initialize a repository? Why do you need to do it?
+
+When you initialize a git repository, it creates a hidden .git folder in the cwd, and a bunch of subfolders and files...I assume we'll find out more about these soon. Check out version_control/reflections/.git to see more.
