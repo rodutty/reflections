@@ -20,3 +20,7 @@ I guess if you had multiple people working on various aspects of the program, ha
 Q5: How do the diagrams help you visualize the branch structure?
 
 Diagrams help me understand lots of concepts by abstracting or encoding things that aren't otherwise apparent. This is no exception!
+
+Q6: What is the result of merging two branches together? Why do we represent it in the diagram the way we do?
+
+The commits from both branches are combined. The diagram reflects the relative order in which commits were added.
