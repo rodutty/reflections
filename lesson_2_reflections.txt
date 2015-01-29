@@ -24,3 +24,7 @@ Diagrams help me understand lots of concepts by abstracting or encoding things t
 Q6: What is the result of merging two branches together? Why do we represent it in the diagram the way we do?
 
 The commits from both branches are combined. The diagram reflects the relative order in which commits were added.
+
+Q7: What are the pros and cons of Git’s automatic merging vs. always doing merges manually?
+
+Automatic merging is faster, but dumber. Manual merging is sometimes required, for example when a decision needs to be made about which conflicting lines of code to keep.
