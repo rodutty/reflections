@@ -13,4 +13,11 @@ Q3: Describe the differences between forks, clones, and branches. When would you
 
 	Branches only exist on the local machine and seem like a good option for having work in progress or other features that you may not be ready to share with everyone yet.
 
+Q4: What is the benefit of having a copy of the last known state of the remote stored locally?
+	
+	Having a copy of the remote allows you to work offline on the files, making commits to the local version until you have a connection. 
+
+	It also makes for speedier commits - if there wasn't a version stored locally, then each commit would take as long as a push/pull, which wouldn't be as efficient.
+
+	
 	 
