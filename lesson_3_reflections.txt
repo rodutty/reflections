@@ -19,5 +19,7 @@ Q4: What is the benefit of having a copy of the last known state of the remote s
 
 	It also makes for speedier commits - if there wasn't a version stored locally, then each commit would take as long as a push/pull, which wouldn't be as efficient.
 
-	
+Q5: How would you collaborate without using Git or GitHub? What would be easier, and what would be harder?
+
+	I would have my collaborators in the same room with me. Communication would be better - lots of shaing of ideas. Coordinating changes to the master would be difficult without git and just coordinating our work together would be difficult without GitHub, especially if we both have day jobs...
 	 
